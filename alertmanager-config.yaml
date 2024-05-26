@@ -7,7 +7,7 @@ data:
   alertmanager.yml: |
     global:
       resolve_timeout: 1m
-      slack_api_url: 'https://hooks.slack.com/services/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'
+      slack_api_url: 'https://hooks.slack.com/services/xxxxxxxxxxxxxx'
     route:
       receiver: 'slack-notifications'
     receivers:
